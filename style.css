@@ -1,0 +1,62 @@
+body {
+ /* padding:30px;*/
+  background: black;
+  text-align: center;
+}
+
+.enter {
+  margin-top: 25%;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#img {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  z-index:
+  -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+.content {
+  display: none;
+  color:white;
+}
+
+.welcome {
+  color: white;
+  font-size: 30px;
+  margin-top: 25%;
+}
+
+.art {
+  display: none;
+  color: black;
+}
+
+/*.back-container {
+  margin: 5% auto;
+}*/
+
+.project {
+  margin: 30px auto 0px auto;
+  width: 70%;
+}
+
+.project img {
+  width: 100%;
+}
+
+@media(max-width:979px) {
+  .project {
+    width: 60%;
+  }
+} 
+
+@media(max-width:480px) {
+  .project {
+    width: 80%;
+  }
+} 
